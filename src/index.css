@@ -1,13 +1,26 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@400;600&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+
+}
+
+.TituloPrincipal{
+  color: var(--cor2);
+}
+span{
+  color: var(--cor2);
+}
+
+:root {
+  --cor1:#303030;
+  --cor2:#FFDE59;
+  --cor3:#000000;
+  --cor4:#FFFFFF;
+  --cor5:#1E1E1E;
 }

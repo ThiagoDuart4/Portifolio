@@ -1,0 +1,58 @@
+
+.CardTeste{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   }
+  
+
+.Card, .CardCaixa{
+    width: 18vw;
+    max-width: 350px;
+    min-width: 270px;
+    height: 23vh;
+    max-height: 220px;
+    min-height: 180px;
+    position: absolute;
+    transition: 0.4s;
+}
+.Card{
+background-color: var(--cor6);
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--cor4);
+}
+
+.CardCaixa{
+  border: 1px solid var(--cor2);
+    z-index: -1;
+  top: 20px;
+  left: 20px;
+}
+.CardPrimary{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    display: flex;
+    width: 18vw;
+    max-width: 350px;
+    min-width: 270px;
+    height: 23vh;
+    max-height: 220px;
+    min-height: 180px;
+}
+
+ .CardPrimary:hover .CardCaixa {
+ top:194px ;
+ left: 0px;
+   transition: 0.4s;
+   background-color: var(--cor6);
+   border: none;
+}
+
+.CardPrimary:hover .Card {
+    transition: 0.4s;
+    background-color: var(--cor2);
+   }

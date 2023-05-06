@@ -1,8 +1,17 @@
 import React from 'react'
+import style from "../Home/Home.module.css"
+import Btn from "../../components/Button/Button"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+
+    <body>
+      
+        <Btn value="Scroll"/>
+    </body>
+   
+    </>
   )
 }
 

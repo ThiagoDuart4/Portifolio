@@ -7,7 +7,15 @@
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
+width: 100%;
+z-index: 0;
+background-color: var(--cor1);
+}
 
+h1,h2,h3,h4{
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 .TituloPrincipal{
@@ -23,4 +31,14 @@ span{
   --cor3:#000000;
   --cor4:#FFFFFF;
   --cor5:#1E1E1E;
+  --cor6:#606060;
 }
+
+/* TAMANHOS DE TELA
+
+CELULAR:600PX
+TABLET:768PX
+NOTEBOOK:992PX
+PC:1200PX
+
+*/

@@ -1,5 +1,6 @@
  .Animacao{
-    position: absolute;  
+    position: absolute;
+    top: 0px; 
  }
 .LampTop{
     width: 15px;
@@ -36,7 +37,7 @@
     background-color: transparent;
     color: transparent;
     width: 700px;
-    height:69vh;
+    height:100vh;
     clip-path: polygon(30% 0,70% 0,80% 100%,20% 100%) ;
     position: absolute;
     top: 287px;

@@ -18,9 +18,10 @@ h1,h2,h3,h4{
   font-family: 'Open Sans', sans-serif;
 }
 
-.TituloPrincipal{
+ .TituloPrincipal{
   color: var(--cor2);
-}
+  font-size: 2em;
+} 
 span{
   color: var(--cor2);
 }
@@ -32,6 +33,8 @@ span{
   --cor4:#FFFFFF;
   --cor5:#1E1E1E;
   --cor6:#606060;
+  --cor7:#ffffff70;
+  --cor8:#00000062;
 }
 
 /* TAMANHOS DE TELA

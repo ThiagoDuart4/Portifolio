@@ -14,10 +14,16 @@ const [valueBtn,setValueBtn] = useState(props.value)
          else if(props.value == "Scroll"){
             teste3()
         }
+
+        else if(props.value == "Contact"){
+           console.log('teste')
+        }
     }
 
     const teste2 = () =>{
-        props.onClick()
+        props.onButtonClick()
+        // props.onClick()
+        // console.log(props.Animation)
     }
     const teste3 = () =>{
         console.log("teste3")

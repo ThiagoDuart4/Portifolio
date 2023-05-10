@@ -5,11 +5,13 @@ display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
+
 }
 
  .info{
   display: flex;
 justify-content: space-around;
+margin-bottom: 20px;
 }
 
 .Contact .info  .icons i{

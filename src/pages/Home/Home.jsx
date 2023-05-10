@@ -45,9 +45,10 @@ const Home = () => {
       <section className={style.section4}>
         <div className={style.Contact}>
         <h1 className='TituloPrincipal'>Contate-me</h1>
-        <p>Para mais informaçoes, entre em contato comigo, estarei sempre ao seu dispor, segue o link a baixo</p>    
+        <p className={style.Margin}>Para mais informaçoes, entre em contato comigo, estarei sempre ao seu dispor, segue o link a baixo</p>    
             <Contact/>
-            <Btn value="Contact"/>
+            <div className={style.BtnContact}> <Btn value="Contact"/></div>
+           
         </div>
         <div className={style.IconContact}>
             <Icon />

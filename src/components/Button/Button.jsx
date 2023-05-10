@@ -16,7 +16,8 @@ const [valueBtn,setValueBtn] = useState(props.value)
         }
 
         else if(props.value == "Contact"){
-           console.log('teste')
+    
+         window.location.href = 'https://api.whatsapp.com/send?phone=5521983396703&text=Ol%C3%A1,tudo%20bem?'
         }
     }
 
@@ -32,9 +33,9 @@ const [valueBtn,setValueBtn] = useState(props.value)
 
   return (
     
-    <div onClick={Teste} className={style.BtnPrimary}>
+    <div onClick={Teste} className={style.BtnPrimary} id='btn'>
         <div className={style.BtnCaixa}></div>
-        <button  className={style.Btn}> {valueBtn}</button>
+        <button  className={style.Btn} > {valueBtn}</button>
     </div>
 
   )

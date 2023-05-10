@@ -7,12 +7,21 @@
 }
 
 body {
-
+  font-family: 'Poppins', sans-serif;
+width: 100%;
+z-index: 0;
+background-color: var(--cor1);
 }
 
-.TituloPrincipal{
+h1,h2,h3,h4{
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+ .TituloPrincipal{
   color: var(--cor2);
-}
+  font-size: 2em;
+} 
 span{
   color: var(--cor2);
 }
@@ -23,4 +32,16 @@ span{
   --cor3:#000000;
   --cor4:#FFFFFF;
   --cor5:#1E1E1E;
+  --cor6:#606060;
+  --cor7:#ffffff70;
+  --cor8:#00000062;
 }
+
+/* TAMANHOS DE TELA
+
+CELULAR:600PX
+TABLET:768PX
+NOTEBOOK:992PX
+PC:1200PX
+
+*/

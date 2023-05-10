@@ -1,0 +1,36 @@
+
+.ContainerImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.teste{
+    width: 200px;
+    height: 250px;
+ position: relative;
+}
+.BoxImage1 ,.BoxImage2 ,.BoxImage3{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+
+}
+
+.BoxImage1 {
+    z-index: 3;
+    bottom: 20px;
+    right: 20px;
+}
+.BoxImage2 {
+    z-index: 2;
+   
+    border: 1px solid var(--cor2);
+} 
+
+.BoxImage3 {
+
+    border: 1px solid var(--cor2);
+    top: 20px;
+    left: 20px;
+   
+} 

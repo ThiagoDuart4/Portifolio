@@ -1,0 +1,65 @@
+ .Animacao{
+    position: absolute;
+    top: 0px; 
+ }
+.LampTop{
+    width: 15px;
+    height: 200px;
+    background-color:var(--cor5);
+    
+}
+
+.LampMidle{
+    background-color:var(--cor3);
+    width: 100px;
+    height: 50px;
+    border-radius: 50px 50px 0px 0px;
+    position: absolute;
+    top: 237px;
+    left: -40px;
+    z-index: 1000;
+ 
+}
+
+.LampBottom{
+    background-color: var(--cor5);
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 138px;
+    left: -140px;
+    border-radius: 150px 150px 0px 0px;
+}
+
+.LigthLamp{
+
+
+    background-color: transparent;
+    color: transparent;
+    width: 700px;
+    height:100vh;
+    clip-path: polygon(30% 0,70% 0,80% 100%,20% 100%) ;
+    position: absolute;
+    top: 287px;
+    left: -340px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    transition: 0.4s;
+
+}
+
+@media screen and (max-width: 600px)  {
+    .Animacao{
+      bottom: 600px;
+      transition: 0.4s;
+     }
+
+  .LigthLamp{
+        display: flex;
+        height:65.7vh;
+    } 
+    
+
+}

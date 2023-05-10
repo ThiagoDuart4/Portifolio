@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import "./index.css"
 
 // ROUTER
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // PAGES
 import Home from "./pages/Home/Home"
 import Landing from "./pages/LandingPage/Landing"
+import Test from "./pages/Test/Test"
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
       <Route  path="home" element={<Home />} />
+      <Route  path="test" element={<Test />} />
       <Route  path="/" index element={<Landing/>} />
       </Routes>
     </BrowserRouter>

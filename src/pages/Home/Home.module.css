@@ -93,10 +93,33 @@ padding-top: 20px;
 }
 
 .section4{
+ 
+}
+
+.section4 .Contact , .section4 .IconContact{
+    width: 100%;
+
+}
+.section4 .Contact {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    flex-direction: column;
+    padding-top:50px ;
+    height:80% ;
+}
+.section4 .Contact h1 {
+    font-size: 3em;
+    width: 300px;
+  }
+
+.section4 .Contact p {
+  font-size: 0.7em;
+  width: 260px;
+  color: var(--cor7);
 }
 
+.section4 .Contact .Info{
+    display: flex;
+}
 }

@@ -5,6 +5,7 @@ import MyImage from '../../components/MyImage/MyImage'
 import Icon from "../../components/Icon/Icon"
 import Card from '../../components/Card/Card'
 import CardProject from "../../components/CardProject/CardProject"
+import Contact from "../../components/Contact/Contact"
 const Home = () => {
   return (
 
@@ -44,9 +45,13 @@ const Home = () => {
       <section className={style.section4}>
         <div className={style.Contact}>
         <h1 className='TituloPrincipal'>Contate-me</h1>
-        <p>Para mais informaçoes, entre em contato comigo, estarei sempre ao seu disport, segue o link a baixo</p>
-        <Btn value="Contact"/>
+        <p>Para mais informaçoes, entre em contato comigo, estarei sempre ao seu dispor, segue o link a baixo</p>    
+            <Contact/>
+            <Btn value="Contact"/>
         </div>
+        <div className={style.IconContact}>
+            <Icon />
+          </div>
       </section>
 
 

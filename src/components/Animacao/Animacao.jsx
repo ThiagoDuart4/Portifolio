@@ -20,7 +20,7 @@ const Animacao = (props) => {
         setTimeout(() => {
           teste();
           setTimeout(() => {
-            window.location.href = 'http://localhost:3000/home';
+            window.location.href = 'https://portifolio-iota-self.vercel.app/home';
           }, 1300); // Atrasa a execução em 3 segundos (3000 milissegundos)
         }, 500); // Atrasa a execução em 3 segundos (3000 milissegundos)
       });

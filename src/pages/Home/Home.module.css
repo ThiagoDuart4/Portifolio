@@ -155,4 +155,9 @@ padding-top: 40px;
         font-size: 1.8em;
      
     }
+
+    .section2 h1 ,.section3 h1{
+    
+        margin-bottom: 10pxpx;
+    }
 }

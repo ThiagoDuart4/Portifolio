@@ -6,6 +6,8 @@ import Animacao from "../../components/Animacao/Animacao"
 const Landing = () => {
 
  const [dataInput,setDataInput] = useState()
+ const [buttonClicked, setButtonClicked] = useState(false);
+
   const testando = () => {
     const btn = document.querySelector("#teste")
     btn.style.height = "100vh";
@@ -17,8 +19,9 @@ const Landing = () => {
 
   const handleChildButtonClick = () => {
     testando()
-   
+   setButtonClicked(true);
   }
+
 
 
   return (
@@ -44,7 +47,7 @@ const Landing = () => {
 
           </section>
           <section className={style.teste} id='teste'>
-            <Animacao dataInput ={dataInput} onMyFunction={testando2} />
+            <Animacao dataInput ={dataInput} onMyFunction={testando2} onButtonClick={buttonClicked}  />
           </section>
         </div>
 

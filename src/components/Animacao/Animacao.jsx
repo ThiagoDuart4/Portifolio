@@ -11,16 +11,20 @@ const Animacao = (props) => {
     const click = document.querySelector("#Ligth")
     click.style.backgroundColor = "#FFDE59";
     click.style.color = "white";
+
   }
-
   useEffect(() => {
-    props.onMyFunction(() => {
-      setTimeout(() => {
-        teste();
-      }, 3000); // Atrasa a execução em 3 segundos (3000 milissegundos)
-    });
-  }, [props.onMyFunction]);
-
+    if (props.onButtonClick== true) {
+      props.onMyFunction(() => {
+        setTimeout(() => {
+          teste();
+          setTimeout(() => {
+            window.location.href = 'http://localhost:3000/home';
+          }, 1300); // Atrasa a execução em 3 segundos (3000 milissegundos)
+        }, 500); // Atrasa a execução em 3 segundos (3000 milissegundos)
+      });
+    }
+  }, [props.buttonClicked, props.onMyFunction]);
 
   return (
     <div className={style.Animacao}>

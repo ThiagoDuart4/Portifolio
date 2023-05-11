@@ -8,10 +8,11 @@ const Animacao = (props) => {
  
 
   const teste = () => {
+    const Span = document.querySelector("#Span")
     const click = document.querySelector("#Ligth")
     click.style.backgroundColor = "#FFDE59";
-    click.style.color = "white";
-
+    click.style.color = "black";
+    Span.style.color = "White"
   }
   useEffect(() => {
     if (props.onButtonClick== true) {
@@ -31,7 +32,7 @@ const Animacao = (props) => {
       <div className={style.LampTop}> </div>
       <div className={style.LampMidle}></div>
       <div className={style.LampBottom}></div>
-      <div className={style.LigthLamp} id='Ligth'>  <h1>Seja bem vindo {props.dataInput}</h1> </div>
+      <div className={style.LigthLamp} id='Ligth'>  <h1>Seja bem vindo(a)  <span id='Span'>{props.dataInput}</span></h1> </div>
    
     </div>
 

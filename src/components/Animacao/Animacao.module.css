@@ -47,8 +47,9 @@
     justify-content: center;
     z-index: 0;
     transition: 0.4s;
-
 }
+
+
 
 @media screen and (max-width: 600px)  {
     .Animacao{

@@ -9,8 +9,8 @@ const Icon = () => {
     }
     return (
         <div className={style.icon}>
-           <a href="https://github.com/ThiagoDuart4"><BsLinkedin style={Style}  /></a> 
-           <a href="https://www.linkedin.com/in/thiago-duarte-n/"> <BsGithub style={Style}/></a>
+           <a href="https://www.linkedin.com/in/thiago-duarte-n/"><BsLinkedin style={Style}  /></a> 
+           <a href="https://github.com/ThiagoDuart4"> <BsGithub style={Style}/></a>
         </div>
     )
 }

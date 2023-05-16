@@ -93,6 +93,20 @@ background-color: transparent;
    }
    
 }
+
+
+@media screen and (max-width: 600px){
+  .Card, .CardCaixa{
+    width: 13vw;
+    max-width: 200px;
+    min-width: 200px;
+    height: 18vh;
+    max-height: 180px;
+    min-height: 150px;
+}
+
+
+}
 @media screen and (max-height: 680px){
 
     .Card, .CardCaixa{

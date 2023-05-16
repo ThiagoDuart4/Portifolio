@@ -38,10 +38,17 @@ span{
 }
 
 /* TAMANHOS DE TELA
-
+CELULAR MIN:3400PX
 CELULAR:600PX
 TABLET:768PX
 NOTEBOOK:992PX
 PC:1200PX
 
 */
+
+@media screen and (max-width: 340px){
+  .TituloPrincipal{
+    color: var(--cor2);
+    font-size: 1.5em;
+  } 
+}

@@ -1,8 +1,10 @@
+body{
+}
+
 .main{
     width: 100%;
     height: 100vh;
     display: flex;
-    overflow: hidden;
 }
 
 .main section{
@@ -14,6 +16,75 @@
     overflow: hidden;
     
 }
+
+
+/* TITULO */
+.titulo{
+  width: 80%;
+  position: relative;
+  bottom: 40px;
+  right: -40px;
+}
+.titulo h1{
+
+  color: var(--cor4);
+  font-size: 4.5em;
+  width: 450px;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+}
+.titulo p{
+  color: var(--cor4);
+  opacity: 0.4;
+  width: 400px;
+  font-size: 1em;
+}
+
+.titulo .ButtonTeste{
+  top: 20px;
+}
+
+.formGroup{
+  position: relative;
+  margin-bottom: 1.5rem;
+  top: 70px;
+  display: flex;
+}
+
+.formGroup  input {
+  width: 60%;
+  padding: 0.4rem 0;
+  border: none;
+  border-bottom: 2px solid var(--cor4);
+  outline: none;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color:var(--cor2);
+  margin-right: 30px;
+}
+
+.formGroup  input::placeholder{
+  color: transparent;
+}
+.formGroup label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  transition: 0.2s ease all;
+  pointer-events: none;
+  color:var(--cor4);
+}
+
+.formGroup  input:focus + label,
+input:not(:placeholder-shown) + label{
+  top: -1rem;
+  left: 0;
+  font-size: 0.8rem;
+  color:var(--cor2)
+}
+
+
+
 @media screen and (max-width: 600px)  {
     .main{
         display: block;
@@ -56,46 +127,30 @@
     font-size: 0.8em;
 }
 
-.titulo .ButtonTeste{
-    top: 20px;
 }
 
+@media screen and (max-width: 380px)  {
+
+.titulo h1{
+    font-size: 2.5em;
+    width: 250px;
+}
+.titulo p{
+    color: var(--cor4);
+    opacity: 0.4;
+    width: 250px;
+    font-size: 0.6em;
+}
 .formGroup{
-    position: relative;
-    margin-bottom: 1.5rem;
-    top: 70px;
-    display: flex;
-  }
-  
-  .formGroup  input {
-    width: 60%;
-    padding: 0.4rem 0;
-    border: none;
-    border-bottom: 2px solid var(--cor4);
-    outline: none;
-    font-size: 1.2rem;
-    background-color: transparent;
-    color:var(--cor2);
-    margin-right: 30px;
-  }
-  
-  .formGroup  input::placeholder{
-    color: transparent;
-  }
-  .formGroup label {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    transition: 0.2s ease all;
-    pointer-events: none;
-    color:var(--cor4);
-  }
-  
-  .formGroup  input:focus + label,
-  input:not(:placeholder-shown) + label{
-    top: -1rem;
-    left: 0;
-    font-size: 0.8rem;
-    color:var(--cor2)
-  }
+  top: 50px;
+}
+
+.formGroup  input {
+  font-size: 1rem;
+}
+
+.formGroup label {
+  font-size: 0.8em;
+}
+
 }

@@ -16,7 +16,7 @@ const Home = () => {
         <section className={style.tituloPrincipal}>
           <h1>Thiago Duarte</h1>
           <span> Desenvolvedor FullStack Jr</span>
-          <p>Ola,Me chamo Thiago sou DEV FullStack junior, aqui esta alguns dos meus projetos mais relevantes, seria um prazer conhcer voce!</p>
+          <p>Ola me chamo Thiago sou DEV FullStack junior, aqui está alguns dos meus projetos mais relevantes, seria um prazer conhecer você</p>
         </section>
         <section className={style.MyImage}>
           <div className={style.ImageHome}>

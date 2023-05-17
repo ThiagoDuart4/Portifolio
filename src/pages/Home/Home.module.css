@@ -1,7 +1,7 @@
 .section1 , .section2  ,.section3 , .section4, .section5{
     width: 100%;
     height: 100vh;
-
+overflow: hidden;
 }
 
 @media screen and (max-width: 600px){
@@ -23,7 +23,7 @@
     min-height: 490vh; */
     background-image:url('../../../public/Background.jpg');
     background-repeat: no-repeat ;
-    background-position: center;
+    background-position:center;
     background-size: cover;
     overflow-x: hidden;
     
@@ -156,3 +156,27 @@ padding-top: 40px;
      
     }
 }
+
+/* 
+@media screen and (max-width: 320px)  {
+
+    
+    .tituloPrincipal h1{
+        color: var(--cor4);
+        font-size: 2em;
+     
+    }
+    .tituloPrincipal span{
+        font-size: 0.8em;
+    }
+    
+    .tituloPrincipal p{
+        font-size: 0.6em;
+    }
+ 
+    .ImageHome{
+        position: relative;
+        bottom: 40px;
+        left: 20px;
+    }
+} */

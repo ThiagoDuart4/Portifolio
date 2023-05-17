@@ -28,13 +28,15 @@ const Animacao = (props) => {
   }, [props.buttonClicked, props.onMyFunction]);
 
   return (
-    <div className={style.Animacao}>
+   
+       <div className={style.Animacao}>
       <div className={style.LampTop}> </div>
       <div className={style.LampMidle}></div>
       <div className={style.LampBottom}></div>
       <div className={style.LigthLamp} id='Ligth'>  <h1>Seja bem vindo(a)  <span id='Span'>{props.dataInput}</span></h1> </div>
    
     </div>
+    
 
   )
 }

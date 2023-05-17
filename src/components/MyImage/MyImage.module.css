@@ -34,3 +34,34 @@
     left: 20px;
    
 } 
+/* @media screen and (max-width: 320px)  {
+
+    .teste{
+        width: 150px;
+        height: 200px;
+    }
+    .BoxImage1 ,.BoxImage2 ,.BoxImage3{
+        width: 150px;
+        height: 200px;
+ 
+    
+    }
+    .BoxImage1 {
+        z-index: 3;
+        bottom: 10px;
+        right: 10px;
+    }
+    .BoxImage2 {
+        z-index: 2;
+       
+        border: 1px solid var(--cor2);
+    } 
+    
+    .BoxImage3 {
+    
+        border: 1px solid var(--cor2);
+        top: 10px;
+        left: 10px;
+       
+    } 
+} */

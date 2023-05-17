@@ -84,3 +84,65 @@ transition: 0.3s;
  }
 
    }
+
+   @media screen and (max-height: 680px){
+    .Card, .CardCaixa{
+      width: 15vw;
+      max-width: 300px;
+      min-width: 220px;
+      height: 20vh;
+      max-height: 180px;
+      min-height: 150px;
+      position: absolute;
+      transition: 0.4s;
+  }
+
+  
+ .CardPrimary:hover .CardCaixa {
+  top:148px ;
+ }
+ 
+
+ .CardPrimary:hover{
+margin-bottom: 130px;
+
+ }
+
+ .CardPrimary{
+  margin-bottom: 50px;
+ }
+
+ .CardPrimary{ 
+  left: 40px;
+}
+   }
+
+   @media screen and (max-width: 340px){
+
+    .Card, .CardCaixa{
+      width: 13vw;
+      max-width: 200px;
+      min-width: 200px;
+      height: 18vh;
+      max-height: 180px;
+      min-height: 150px;
+  }
+
+   
+ .CardPrimary:hover .CardCaixa {
+  top:148px ;
+ }
+ 
+
+ .CardPrimary:hover{
+margin-bottom: 130px;
+
+ }
+
+ .CardPrimary{
+  margin-bottom: 50px;
+ }
+
+ .CardPrimary{ 
+  left: 50px;}
+   }

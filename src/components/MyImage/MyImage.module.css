@@ -34,34 +34,25 @@
     left: 20px;
    
 } 
-/* @media screen and (max-width: 320px)  {
+@media screen and (max-width: 340px){
 
     .teste{
-        width: 150px;
-        height: 200px;
+        width: 180px;
+        height: 230px;
     }
     .BoxImage1 ,.BoxImage2 ,.BoxImage3{
-        width: 150px;
-        height: 200px;
- 
-    
+        width: 180px;
+        height: 230px;    
     }
+
     .BoxImage1 {
-        z-index: 3;
-        bottom: 10px;
-        right: 10px;
+        bottom: 15px;
+        right: 15px;
     }
-    .BoxImage2 {
-        z-index: 2;
-       
-        border: 1px solid var(--cor2);
-    } 
-    
+
     .BoxImage3 {
-    
-        border: 1px solid var(--cor2);
-        top: 10px;
-        left: 10px;
-       
-    } 
-} */
+        top: 15px;
+        left: 15px;
+
+    }  
+}

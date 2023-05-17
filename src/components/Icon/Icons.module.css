@@ -2,29 +2,32 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 10px;
-    top: 30px;
+    left: 15px;
+  
 }
 
-a{
+a{ 
+    color: rgb(255, 222, 89);
+    margin-bottom: 20px;
+    font-size: 2em;
     width: 50px;
-    color: #FFDE59;
-    margin-bottom:10px ;
-    font-size: 2.5em;
-
 }
 
-/* @media screen and (max-width: 400px)  {
 
+@media screen and (max-width:340px)  {
+    a{ 
+        font-size: 1.6em; 
+        margin-bottom: 15px;
+    }
     .icon{
-      top: 20px;
-    bottom: 0px;
-        left: 10px;
+     top: 30px;
+      
     }
-    
+}
+@media screen and (max-height: 600px)  {
     a{
-
-        font-size: 1.8em;
-    
+        width: 16px;
+        font-size: 1em;
+        margin-bottom: 15px;
     }
-} */
+}

@@ -24,6 +24,7 @@ body{
   position: relative;
   bottom: 40px;
   right: -40px;
+ 
 }
 .titulo h1{
 
@@ -108,7 +109,8 @@ input:not(:placeholder-shown) + label{
 /* TITULO */
 .titulo{
     width: 80%;
-    position: relative;
+    bottom: 0px;
+    right: 0px;
 }
 .titulo h1{
 

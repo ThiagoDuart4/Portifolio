@@ -30,13 +30,13 @@ const Landing = () => {
           <section>
             <div className={style.titulo}>
               <h1>Pense,Faça,<span>Resolva.</span></h1>
-              <p>Ola me chamo Thiago sou DEV FullStack junior, aqui está alguns dos meus projetos mais relevantes, seria um prazer conhecer você!</p>
+              <p>Olá me chamo Thiago sou DEV FullStack Jr, aqui está alguns dos meus projetos mais relevantes. Seria um prazer conhecer você!</p>
 
               <div className={style.formGroup}>
                 <input type="text" name="name" placeholder='teste'  required onChange={(e)=>{
                   setDataInput(e.target.value)
                 }} />
-                <label htmlFor="name">digite aqui seu nome...</label>
+                <label htmlFor="name">Digite aqui seu nome...</label>
                 <Button value="Enviar" onButtonClick={() => handleChildButtonClick()} className={style.ButtonTeste} />
               </div>
           

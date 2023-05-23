@@ -3,12 +3,11 @@
     flex-direction: column;
     position: relative;
     left: 15px;
-  
+     grid-gap:10px
 }
 
 a{ 
     color: rgb(255, 222, 89);
-    margin-bottom: 20px;
     font-size: 2em;
     width: 50px;
 }
@@ -17,17 +16,12 @@ a{
 @media screen and (max-width:340px)  {
     a{ 
         font-size: 1.6em; 
-        margin-bottom: 15px;
     }
-    .icon{
-     top: 30px;
-      
-    }
+  
 }
-@media screen and (max-height: 600px)  {
+@media screen and (max-height: 610px)  {
     a{
-        width: 16px;
-        font-size: 1em;
-        margin-bottom: 15px;
+
+        font-size: 1.2em;
     }
 }

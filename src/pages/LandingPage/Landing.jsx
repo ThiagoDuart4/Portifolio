@@ -25,15 +25,12 @@ const Landing = () => {
 
 
   return (
-    <>
-
-      <body>
-
-        <div className={style.main}>
+ 
+       <div className={style.main}>
           <section>
             <div className={style.titulo}>
               <h1>Pense,Faça,<span>Resolva.</span></h1>
-              <p>Ola,Me chamo Thiago sou DEV FullStack junior, aqui esta alguns dos meus projetos mais relevantes, seria um prazer conhcer você!</p>
+              <p>Ola me chamo Thiago sou DEV FullStack junior, aqui está alguns dos meus projetos mais relevantes, seria um prazer conhecer você!</p>
 
               <div className={style.formGroup}>
                 <input type="text" name="name" placeholder='teste'  required onChange={(e)=>{
@@ -50,9 +47,6 @@ const Landing = () => {
             <Animacao dataInput ={dataInput} onMyFunction={testando2} onButtonClick={buttonClicked}  />
           </section>
         </div>
-
-      </body>
-    </>
   )
 }
 

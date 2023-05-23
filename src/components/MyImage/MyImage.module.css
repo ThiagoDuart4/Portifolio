@@ -34,9 +34,8 @@
     left: 20px;
    
 } 
-
 @media screen and (max-width: 340px){
-   
+
     .teste{
         width: 180px;
         height: 230px;
@@ -45,7 +44,7 @@
         width: 180px;
         height: 230px;    
     }
-    
+
     .BoxImage1 {
         bottom: 15px;
         right: 15px;

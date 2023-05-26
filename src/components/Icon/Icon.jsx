@@ -3,8 +3,6 @@ import style from '../Icon/Icons.module.css'
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import {FiDownload} from 'react-icons/fi';
 import { saveAs } from 'file-saver';
-import  testes from "../../assets/curriculo.pdf"
-
 
 const Icon = () => {
     return (

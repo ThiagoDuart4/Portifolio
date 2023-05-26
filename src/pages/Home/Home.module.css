@@ -1,11 +1,163 @@
-.section1 , .section2  ,.section3 , .section4, .section5{
+/* DESKTOP */
+
+.section1 , .section2  ,.section3 , .section4{
     width: 100%;
     height: 100vh;
 overflow: hidden;
 }
 
+
+.home{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* SECTION 1 */
+.IconHome{display: none;}
+
+.section1{
+    display: flex;
+}
+.tituloPrincipal ,.MyImage{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tituloPrincipal {
+    width: 60%;
+}
+
+.tituloPrincipal .text{
+    width: 60%;
+    position: relative;
+    bottom: 70px;
+}
+
+.tituloPrincipal  .text h1{
+    color: var(--cor4);
+    font-size: 3em;
+ 
+}
+.tituloPrincipal .text  span{
+
+}
+
+.tituloPrincipal .text p{
+margin: 30px 0px 30px 0px;
+width: 80%;
+font-size:0.8em;
+color: var(--cor7);
+
+}
+/* MI IMAGE HOME */
+
+.MyImage{
+    background-color: var(--cor5);
+    width: 40%;
+}
+.ImageHome{
+    position: relative;
+  left: -200px;
+}
+
+
+/* SECTION 2  ,  SECTION 3*/
+    .section2, .section3{
+  
+    }
+   
+    .section2 .CardSection ,.section3 .CardSection{
+        height: 50%;
+   }
+   .section2  h1 {
+    background-color: var(--cor5);
+   }
+   .section3{
+
+   }
+   .section3 .CardSection{
+    background-color: var(--cor5);
+   }
+  
+   .section2 h1,.section3 h1{
+    height: 50%;
+    padding: 40px;
+   }
+   .section4{
+     display: flex;
+   } 
+  
+   .section4 .infoSection4, .section4 .Maps{
+    width: 50%;
+    height: 100%;
+  
+}
+
+.section4 .infoSection4{
+    background-color: var(--cor5);
+}
+
+   .section4 .infoSection4 .Contact {
+  height: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+   }
+
+   .section4 .infoSection4 .Contact .TextContact{
+    width: 70%;
+   }
+  
+   .section4 .infoSection4 .Contact h1 {
+   font-size: 3.5em;
+    
+     }
+    
+   .section4  .infoSection4 .Contact .Margin {
+    font-size: 0.9em;
+    color: var(--cor7);
+ width: 80%;
+ max-width: 500px;
+ min-width: 260px;
+    margin: 20px 0px ;
+   } 
+    
+          
+   .section4 .infoSection4 .Contact .BtnContact{
+   
+
+   } 
+
+   .section4  .Maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  
+   
+   .section4  .Maps .MyMaps{
+    width: 65%;
+        height: 70vh;
+        border: none;
+   }
+
+/* MOBILE TELAS GRANDES */
+
 @media screen and (max-width: 600px){
 
+.IconHome{display: block}
+.section4 .Maps{
+    display: none;
+}
+.btn{
+    display: none;
+}
     .section1 ,.section4{
         width: 100%;
         height: 100vh;
@@ -32,7 +184,8 @@ overflow: hidden;
 /* SECTION 1 */
 
 .section1{
-
+    display: flex;
+    flex-direction: column;
 }
 .tituloPrincipal ,.MyImage{
     width: 100%;
@@ -41,37 +194,43 @@ overflow: hidden;
     flex-direction: column;
 
 }
-
-.tituloPrincipal {
+.tituloPrincipal .text{
+    width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    bottom: 0px;
 }
 
-.tituloPrincipal h1{
+.tituloPrincipal .text h1{
     color: var(--cor4);
     font-size: 2.5em;
  
 }
-.tituloPrincipal span{
+.tituloPrincipal .text span{
     margin: 10px;   
 }
 
-.tituloPrincipal p{
+.tituloPrincipal .text p{
     width: 70%;
     font-size: 0.7em;
     text-align: center;
     color: var(--cor7);
-
+    margin: 0px;
 }
 /* MYIMAGE */
 .MyImage{
- 
+
 }
 .ImageHome{
     position: relative;
-    bottom: 40px;
+    bottom: 50px;
     left: 20px;
+}
+.IconHome{
+    width: 100%;
 }
 
 /* SECTION 2  ,  SECTION 3*/
@@ -81,19 +240,59 @@ overflow: hidden;
  flex-direction: column;
 align-items: center;
 padding-top: 40px;
+
 }
 
 .section2 h1 ,.section3 h1{
     position: relative;
     left: -70px;
     margin-bottom: 50px;
+    height: 200px;
+
 }
 
 .section2 .CardSection ,.section3 .CardSection{
     position: relative;
     left: -20px;
+    height: 80%;
+    background-color: transparent;
+}
+/* NEW SECTION 4 */
+.section4{
+
+  } 
+  .section2  h1 {
+    background-color: transparent;
+   }
+
+   .section3 .CardSection{
+    background-color:transparent;
+   }
+
+.section4 .infoSection4{
+   background-color:transparent;
+   width: 100%;
+   display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
 }
 
+.section4 .infoSection4 .Contact{
+    display: flex;
+    align-items: center;
+}
+.section4 .infoSection4 .Contact .TextContact h1{
+    font-size: 2.5em;
+    position: relative;
+    left: -20px;
+}
+.section4 .infoSection4 .IconContact{
+    width: 100%;
+}
+
+
+/* 
 .section4{
  
 }
@@ -135,143 +334,35 @@ padding-top: 40px;
 
 .Margin{
     margin: 30px 0px;
+} */
 }
-}
-
 @media screen and (max-width: 340px){
-
     
-/* SECTION 1 */
-
-
-.tituloPrincipal h1{
+.tituloPrincipal .text h1{
     color: var(--cor4);
-    font-size: 2em;
+    font-size: 2.2em;
  
 }
-.tituloPrincipal span{
-    font-size: 0.8em;
-    margin: 10px;   
-}
 
-.tituloPrincipal p{
+.tituloPrincipal .text p{
     font-size: 0.6em;
 }
-/* MYIMAGE */
+}
+/* TELAS COM O HEIGT MENOR */
+
+@media screen and (max-height: 690px){
+    /* MYIMAGE */
 .MyImage{
- 
+
 }
 .ImageHome{
     position: relative;
-    bottom: 40px;
+    bottom: 0px;
     left: 20px;
 }
-
-/* SECTION 2  ,  SECTION 3*/
-
-   
-   .section2 h1 ,.section3 h1{
-       left: -50px;
-       margin-bottom: 30px;
-   }
-   
-   .section2 .CardSection ,.section3 .CardSection{
-       position: relative;
-       left: -20px;
-   }
-   
-   .section4{
-    
-   }
-   
-   .section4 .Contact , .section4 .IconContact{
-       width: 100%;
-   
-   }
-   .section4 .Contact {
-       padding-top:20px ;
-   }
-   .section4 .Contact h1 {
-       font-size: 2.5em;
-       width: 250px;
-    
-     }
-   
-   .section4 .Contact p {
-     font-size: 0.5em;
-     width:55%;
-     color: var(--cor7);
-   }
-   
-   .section4 .Contact .Info{
-       display: flex;
-   }
-   .section4 .Contact .BtnContact{
-       width: 32px;
-   
-       position: relative;
-       top: 40px;
-       left: 70px;
-   }
-   
-   .Margin{
-       margin: 30px 0px;
-   }
-
+.IconHome{
+    width: 100%;
+    position: relative;
+    bottom: 50px;
 }
-
-@media screen and (max-height: 680px){
-
-    .section1 , .section2  ,.section3 , .section4, .section5{
-        overflow: hidden;
-    }
-
-    /* SECTION 1 */
-    .section1 .IconHome{
-        width: 50px;
-        position: relative;
-        bottom: 90px;
-    }
-
-   
 }
-
-@media screen and (max-height: 600px){
-    .section1 , .section2  ,.section3 , .section4, .section5{
-        overflow: hidden;
-
-    }
-
-    .home{
-        height: 560vh;
-    }
-
-    .section2  ,.section3 {
-        width: 100%;
-        height: 180vh;
-    }
-}
-
-/* 
-@media screen and (max-width: 320px)  {
-
-    
-    .tituloPrincipal h1{
-        color: var(--cor4);
-        font-size: 2em;
-     
-    }
-    .tituloPrincipal span{
-        font-size: 0.8em;
-    }
-    
-    .tituloPrincipal p{
-        font-size: 0.6em;
-    }
- 
-    .ImageHome{
-        position: relative;
-        bottom: 40px;
-        left: 20px;
-    }
-} */

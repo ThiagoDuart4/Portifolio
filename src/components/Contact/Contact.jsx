@@ -16,7 +16,7 @@ const Contact = () => {
         },
         {
             name: "EMAIL",
-            Info: "thiagoduarteprogramador@gmail.com",
+            Info: "thiagoduarteprogramador @gmail.com",
             Icon: <AiOutlineMail />
         },
         {

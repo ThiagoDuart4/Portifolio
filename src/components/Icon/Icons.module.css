@@ -19,9 +19,9 @@ a{
     }
   
 }
-@media screen and (max-height: 610px)  {
+@media screen and (max-height: 690px)  {
     a{
 
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 }

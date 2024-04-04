@@ -1,24 +1,27 @@
 import React from 'react'
 import style from "../CardProject/Project.module.css"
+import CarteiraImage from '../../assets/Carteira.jpeg';
+import AzulTurismoImage from '../../assets/AzulTurismo.jpeg';
+import NbaImage from '../../assets/Nba.jpeg';
 
 const CardProject = () => {
 
     const ArrayInfo = [
-        {
-            name: "Carteira",
-            URL: "https://carteira-de-gastos.vercel.app/",
-            Image:"/static/media/Carteira.1d66d6d023bfc5fae579.jpeg"
-        },
-        {
-            name: "AzulTurismo",
-            URL: "https://azul-turismo.vercel.app/",
-            Image: "/static/media/AzulTurismo.67a53fb6b82a1b8f5fcf.jpeg"
-        },
-        {
-            name: "Nba",
-            URL: "https://nba-estatisticas.vercel.app/",
-            Image: "/static/media/Nba.aa671cab169a703f2a3a.jpeg"
-        },
+       {
+        name: "Carteira",
+        URL: "https://carteira-de-gastos.vercel.app/",
+        Image: CarteiraImage
+    },
+    {
+        name: "AzulTurismo",
+        URL: "https://azul-turismo.vercel.app/",
+        Image: AzulTurismoImage
+    },
+    {
+        name: "Nba",
+        URL: "https://nba-estatisticas.vercel.app/",
+        Image: NbaImage
+    },
     ]
 
     return (

@@ -15,7 +15,7 @@ const Animacao = (props) => {
     Span.style.color = "White"
   }
   useEffect(() => {
-    if (props.onButtonClick== true) {
+    if (props.onButtonClick === true) {
       props.onMyFunction(() => {
         setTimeout(() => {
           teste();

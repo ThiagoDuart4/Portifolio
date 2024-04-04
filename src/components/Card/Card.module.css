@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top:-100px ;
+    top:-100px ;  
    }
   
 
@@ -32,6 +32,12 @@ z-index: 3;
     z-index: 2;
   top: 20px;
   left: 20px;
+  font-size: 0.8em;
+
+}
+
+.CardCaixa p{
+  display: none;
 }
 .CardPrimary{
     position: relative;
@@ -53,6 +59,14 @@ z-index: 3;
    transition: 0.4s;
    background-color: var(--cor6);
    border: none;
+
+}
+
+.CardPrimary:hover .CardCaixa p {
+  display: flex;
+  transition: 0.4s;
+  color: var(--cor4);
+  padding: 10px;
 }
 
 .CardPrimary:hover .Card {
@@ -104,6 +118,9 @@ transition: 0.3s;
   top:148px ;
  }
  
+ .CardPrimary .CardCaixa p {
+   font-size: 0.78em;
+}
 
  .CardPrimary:hover{
 margin-bottom: 130px;

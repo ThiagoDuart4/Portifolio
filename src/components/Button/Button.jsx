@@ -4,18 +4,18 @@ import style from "../Button/Button.module.css"
 
 const Button = (props) => {
     // STATES
-const [valueBtn,setValueBtn] = useState(props.value)
+const [valueBtn] = useState(props.value)
 
     const Teste = () =>{
 
-        if (props.value == "Enviar") {
+        if (props.value === "Enviar") {
             teste2()
         }
-         else if(props.value == "Scroll"){
+         else if(props.value === "Scroll"){
             teste3()
         }
 
-        else if(props.value == "Contact"){
+        else if(props.value === "Contact"){
     
          window.location.href = 'https://api.whatsapp.com/send?phone=5521983396703&text=Ol%C3%A1,tudo%20bem?'
         }

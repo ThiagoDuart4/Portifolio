@@ -1,8 +1,5 @@
 import React from 'react'
 import style from "../CardProject/Project.module.css"
-import Carteira from "../../assets/Carteira.jpeg"
-import Nba from "../../assets/Nba.jpeg"
-import AzulTurismo from "../../assets/AzulTurismo.jpeg"
 
 const CardProject = () => {
 

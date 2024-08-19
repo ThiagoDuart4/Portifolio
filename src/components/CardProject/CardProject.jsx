@@ -2,7 +2,7 @@ import React from 'react'
 import style from "../CardProject/Project.module.css"
 import CarteiraImage from '../../assets/Carteira.jpeg';
 import AzulTurismoImage from '../../assets/AzulTurismo.jpeg';
-import NbaImage from '../../assets/Nba.jpeg';
+import MiniBlog from '../../assets/Magé Noticias - Google Chrome 19_08_2024 17_34_21.png';
 
 const CardProject = () => {
 
@@ -18,9 +18,9 @@ const CardProject = () => {
         Image: AzulTurismoImage
     },
     {
-        name: "Nba",
-        URL: "https://nba-estatisticas.vercel.app/",
-        Image: NbaImage
+        name: "Magé noticias",
+        URL: "https://miniblog-blush.vercel.app/",
+        Image: MiniBlog
     },
     ]
 
